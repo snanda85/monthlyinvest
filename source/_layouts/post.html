@@ -1,0 +1,56 @@
+---
+layout: layout_with_sidebar
+---
+<article>
+    <h1 itemprop="headline" class="title">
+        {{ page.title }}
+    </h1>
+
+    {% if page.subtitle %}
+        <p itemprop="alternativeHeadline" class="subtitle">
+            <span>{{ page.subtitle }}</span>
+        </p>
+    {% endif %}
+
+    <p class="subtitle">
+        <span>
+            {% if page.categories and page.categories.size > 0 %}
+                Series:
+                {% include post/categories.html %}
+            {% endif %}
+        </span>
+
+        <span class="date">
+            <time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+        </span>
+        <br style="clear:both"/>
+    </p>
+
+    <div itemprop="text" class="post">{{ content }}</div>
+
+    <hr/>
+    {% if page.previous.url or page.next.url %}
+        <p class="subtitle">
+            {% if page.previous.url %}
+                <a class="left" href="{{page.previous.url}}" title="Previous Post: {{page.previous.title }}">&larr; {{page.previous.title | truncatewords : 15}}</a>   
+            {% endif %}
+            {% if page.next.url %}
+                <a class="right" href="{{page.next.url}}" title="Next Post: {{page.next.title}}">{{page.next.title | truncatewords: 15}} &rarr;</a>
+            {% endif %}
+            <br style="clear:both"/>
+        </p>
+    {% endif %}
+
+    <p class="subtitle">
+        {% if page.tags and page.tags.size > 0 %}
+            <span itemprop="keywords" class="tags">
+                Tags:
+                {{ page.tags | join: ", " }}
+            </span>
+        {% endif %}
+        {% include post/social_share.html %}
+        <br style="clear:both"/>
+    </p>
+
+    {% include post/disqus_thread.html %}
+</article>

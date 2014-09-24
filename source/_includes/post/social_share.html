@@ -1,0 +1,33 @@
+{% if site.enable_sharing and page.sharing %}
+    {% capture url %}{{ site.url | append: page.url | cgi_escape}}{% endcapture %}
+    {% capture title %}{{ page.title | cgi_escape }}{% endcapture %}
+    {% capture summary %}{{ page.excerpt | strip_html | cgi_escape }}{% endcapture %}
+    <span class="social-share">
+        Share:
+
+        <a target="_blank" title="LinkedIn" href="//www.linkedin.com/shareArticle?url={{ url}}&title={{ title }}&summary={{ summary }}">
+            <i class="fa fa-linkedin-square fa-2x"></i>
+        </a>
+
+        <a target="_blank" title="Twitter" href="//twitter.com/intent/tweet?url={{ url }}&text={{ title }} via @{{site.twitter_username}}">
+            <i class="fa fa-twitter-square fa-2x"></i>
+        </a>
+
+        <a target="_blank" title="Tumblr" href="http://www.tumblr.com/share/link?url={{ url }}&name={{ title }}&description={{ summary }}">
+            <i class="fa fa-tumblr-square fa-2x"></i>
+        </a>
+
+        <a target="_blank" title="Google Plus" href="//plus.google.com/share?url={{ url }}">
+            <i class="fa fa-google-plus-square fa-2x"></i>
+        </a>
+
+        <a target="_blank" title="Reddit" href="//www.reddit.com/submit?url={{ url }}&title={{ title }}">
+            <i class="fa fa-reddit-square fa-2x"></i>
+        </a>
+
+        <a target="_blank" title="Digg" href="//digg.com/submit?url={{ url }}">
+            <i class="fa fa-digg fa-2x"></i>
+        </a>
+    </span> 
+
+{% endif %}

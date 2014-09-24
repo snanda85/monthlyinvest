@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    <body>
+
+        {% if page.itemtype %}
+            {% assign itemtype = page.itemtype %}
+        {% else %}
+            {% assign itemtype = "WebPage" %}
+        {% endif %}
+
+        <div itemscope itemtype="http://schema.org/{{ itemtype }}" class="content">
+            {% include header.html %}
+
+            <div class="page-content">
+                {{ content }}
+            </div>
+
+            {% include footer.html %}
+        </div>
+
+        {% if site.github %}
+            {% include analytics.html %}
+        {% endif %}
+    </body>
+</html>

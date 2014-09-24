@@ -1,0 +1,12 @@
+---
+layout: page_without_sidebar
+title: Series
+footer: false
+---
+<div id="blog-categories">
+    {% for series in site.data.series %}
+        <h2>
+            <a href="{{ series.category }}">{{ series.name }}</a>
+        </h2>
+    {% endfor %}
+</div>

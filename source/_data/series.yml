@@ -1,0 +1,18 @@
+- name: Gyan
+  desc: Knowledge (Gyan) about accumulating wealth, one step at a time
+  category: gyan
+
+- name: High Risk
+  desc: |
+    For (young) investors with high risk appetite in short term
+  category: highrisk
+
+- name: Medium Risk
+  desc: |
+    For investors with medium risk appetite
+  category: mediumrisk
+
+- name: Low Risk
+  desc: |
+    For investors with low risk appetite
+  category: lowrisk

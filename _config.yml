@@ -1,0 +1,50 @@
+title: "MonthlyInvest"
+email: contact@monthlyinvest.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+
+# URLs
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://monthlyinvest.com" # the base hostname & protocol for your site
+static_url: /assets/
+permalink: /blog/:year/:month/:title/
+source: source
+destination: build
+excerpt_separator: "<!--more-->"
+
+# SASS settings
+sass:
+    sass_dir: assets/_sass
+
+# Front matter defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "post" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "post"
+      comments: true
+      sharing: true
+      sidebar: "post.html"
+
+# Build settings
+exclude: ["CNAME", "README.md", "Rakefile", "generate.rb", "Gemfile", "Gemfile.lock"]
+highlighter: pygments
+paginate: 10
+markdown: kramdown
+
+redcarpet:
+  extensions:
+    - smart
+
+# Other serivces
+enable_sharing: true
+twitter_username: monthlyinvest
+github_username:  jekyll
+
+# Disqus Comments
+disqus_short_name: monthlyinvest
+disqus_show_comment_count: false

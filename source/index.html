@@ -1,0 +1,21 @@
+---
+layout: layout_with_sidebar
+---
+
+<div class="container home">
+    <div class="blog-index">
+        {% for post in paginator.posts %}
+            {% include post/excerpt.html %}
+        {% endfor %}
+
+        <div class="pagination">
+            {% if paginator.next_page %}
+                <a class="prev" href="{{paginator.next_page_path}}">&larr; Previous</a>
+            {% endif %}
+            <a href="/blog/archives">Blog Archives</a>
+            {% if paginator.previous_page %}
+                <a class="next" href="{{paginator.previous_page_path}}">Next &rarr;</a>
+            {% endif %}
+        </div>
+    </div>
+</div>

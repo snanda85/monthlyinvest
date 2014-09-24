@@ -1,0 +1,25 @@
+---
+layout: layout_with_sidebar
+---
+
+<div class="page-heading">
+    {% for series in site.data.series %}
+        {% if series.category == page.category %}
+            {% assign series_name = series.name %}
+            <h1 itemprop="headline">{{ series.name }} series</h1>
+            <p itemprop="alternativeHeadline" class="subtitle">{{ series.desc }}</p>
+            {% break %}
+        {% endif %}
+    {% endfor %}
+</div>
+<div itemprop="text" class="blog-index">
+    {% for post in site.categories[page.category] %}
+        {% include post/excerpt.html %}
+    {% endfor %}
+</div>
+<div class="page-footer">
+    <hr/>
+    <p class="subtitle">
+        <a href="feed.xml">Subscribe to {{series_name}} series via RSS</a>
+    </p>
+</div>

@@ -1,0 +1,47 @@
+<header id="site-header">
+    <div id="hero">
+        <ul class="slideshow">
+            <li>
+                <img src="{{site.static_url}}images/hero1.jpg"/>
+            </li>
+        </ul>
+        <div id="hero-content">
+            <div class="container">
+                <h1>
+                    <i class="fa fa-bullseye"></i>
+                    <a href="/" title="{{ site.title }}">MonthlyInvest<small>.com</small></a>
+                </h1>
+                <br/>
+                <h2 class="caption">One Step at a Time</h2>
+            </div>
+        </div>
+
+    </div>
+
+    <nav class="site-nav">
+        <div class="container">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li>
+                    {% assign category = "gyan" %}
+                    {% include post/category_link.html %}
+                </li>
+                <li>
+                    {% assign category = "lowrisk" %}
+                    {% include post/category_link.html %}
+                </li>
+                <li>
+                    {% assign category = "mediumrisk" %}
+                    {% include post/category_link.html %}
+                </li>
+                <li>
+                    {% assign category = "highrisk" %}
+                    {% include post/category_link.html %}
+                </li>
+                <li><a href="/strategies">Investment Strategies</a></li>
+                <li><a href="/about">About</a></li>
+                <li class="no-bullet"><a href="/feed.xml">RSS</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>

@@ -1,0 +1,19 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} - {{site.title}}</title>
+    <meta name="description" content="{{ site.description }}">
+
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+    <link href="//fonts.googleapis.com/css?family=Nunito:300|Signika" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="{{ site.static_url }}images/favicon.png">
+
+    {% if site.github %}
+        <link rel="stylesheet" href="{{ site.static_url }}css/site.css?sha={{ site.github.build_revision }}">
+    {% else %}
+        <link rel="stylesheet" href="{{ site.static_url }}css/site.css">
+    {% endif %}
+</head>

@@ -1,0 +1,11 @@
+{% if post.categories %}
+    {% assign categories = post.categories %}
+{% elsif page.categories %}
+    {% assign categories = page.categories %}
+{% endif %}
+
+{% for category in categories %}
+    {% unless category == "posts" %}
+        {% include post/category_link.html %}{% unless forloop.last %}, {% endunless%}
+    {% endunless %}
+{% endfor %}
