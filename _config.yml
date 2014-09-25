@@ -31,7 +31,7 @@ defaults:
       sidebar: "post.html"
 
 # Build settings
-exclude: ["CNAME", "README.md", "Rakefile", "generate.rb", "Gemfile", "Gemfile.lock"]
+exclude: ["README.md", "Rakefile", "generate.rb", "Gemfile", "Gemfile.lock"]
 highlighter: pygments
 paginate: 10
 markdown: kramdown

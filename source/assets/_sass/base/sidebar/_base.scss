@@ -33,6 +33,10 @@
         padding-top: .5em;
       }
     }
+    h2 {
+      font-size: 1.1em;
+      margin-bottom: 0.2em;
+    }
   }
 
   img {
@@ -52,8 +56,8 @@
   }
   li {
     list-style: none;
-    padding: .5em 0;
-    margin: 0;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
     //border-bottom: 1px solid $sidebar-border;
     //@extend .side-shadow-border;
     p:last-child {
