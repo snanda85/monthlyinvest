@@ -566,6 +566,9 @@ input[type="submit"] {
       border-bottom: 1px solid #DDD; }
       .sidebar section h1 + p {
         padding-top: .5em; }
+    .sidebar section h2 {
+      font-size: 1.1em;
+      margin-bottom: 0.2em; }
   .sidebar img {
     max-width: 100%;
     height: auto;
@@ -585,8 +588,8 @@ input[type="submit"] {
     margin-left: 0; }
   .sidebar li {
     list-style: none;
-    padding: .5em 0;
-    margin: 0; }
+    font-size: 1.2em;
+    margin-bottom: 0.5em; }
     .sidebar li p:last-child {
       margin-bottom: 0; }
   .sidebar a {
@@ -2562,8 +2565,8 @@ hr.fin {
 
 #site-footer {
   padding-bottom: 30px;
-  font-size: .9em;
-  margin-top: 5px;
+  font-size: 0.8em;
+  margin-top: 1em;
   text-align: center;
   color: #666; }
   #site-footer h3 {
@@ -2671,7 +2674,6 @@ article {
       float: right; }
   article ul, article ol, article p {
     font-family: "Nunito", sans-serif;
-    font-size: 1.05em;
     font-weight: 300;
     margin-bottom: 1em; }
     article ul ul, article ul ol, article ul p, article ol ul, article ol ol, article ol p, article p ul, article p ol, article p p {
@@ -2679,6 +2681,8 @@ article {
     article ul span, article ol span, article p span {
       font-family: "Nunito", sans-serif;
       font-size: 0.9em; }
+  article p {
+    font-size: 1.05em; }
   article ol, article ul {
     margin: 0.5em 0 1em 2em; }
     article ol ul, article ol ol, article ul ul, article ul ol {

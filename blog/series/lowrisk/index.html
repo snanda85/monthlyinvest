@@ -100,7 +100,7 @@
                 </li>
                 <li><a href="/strategies">Investment Strategies</a></li>
                 <li><a href="/about">About</a></li>
-                <li class="no-bullet"><a href="/feed.xml">RSS</a></li>
+                <li class="no-bullet" style="display:none"><a href="/feed.xml">RSS</a></li>
             </ul>
         </div>
     </nav>
@@ -143,16 +143,44 @@
 
 
 <section>
+    <h1>Get latest updates</h1>
+    <div>
+        Subscribe to get updates about newly published articles.
+        <h2>Via Feeds</h2>
+        <p>
+            <a href="http://feeds.feedburner.com/Monthlyinvest" rel="alternate" type="application/rss+xml"><img src="//feedburner.google.com/fb/images/pub/feed-icon16x16.png" alt="" style="vertical-align:middle;border:0"/></a>&nbsp;
+            <a href="http://feeds.feedburner.com/Monthlyinvest" rel="alternate" type="application/rss+xml">Subscribe in a reader</a></p>
+
+        <p>
+            <a href="http://feedly.com/#subscription/feed/http://feeds.feedburner.com/Monthlyinvest" title="MonthlyInvest" target="popupwindow"><img src="http://s3.feedly.com/feedburner/feedly.png" alt="" style="border:0;height:15px;"/></a>
+            <a href="http://add.my.yahoo.com/rss?url=http://feeds.feedburner.com/Monthlyinvest" title="MonthlyInvest" target="popupwindow"><img src="http://us.i1.yimg.com/us.yimg.com/i/us/my/addtomyyahoo4.gif" alt="" style="border:0;height:15px;"/></a>
+        </p>
+
+
+        <h2>Via Email</h2>
+        <form style="padding:3px;text-align:center;" action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=Monthlyinvest', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+
+            <p>
+                <input type="text" name="email" placeholder="Enter your email address"/>
+            </p>
+            <input type="hidden" value="Monthlyinvest" name="uri"/>
+            <input type="hidden" name="loc" value="en_US"/>
+            <input type="submit" value="Subscribe" />
+        </form>
+    </div>
+</section>
+
+<section>
   <h1>Recent Posts</h1>
-  <ul id="recent_posts">
+  <ol id="recent_posts">
     
         
-            <li class="post">
+            <li>
                 <a href="/blog/2014/09/basics-of-investing/">Basics of Investing</a>
             </li>
         
     
-  </ul>
+  </ol>
 </section>
 
 <section itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -162,8 +190,8 @@
         <a itemprop="url" href="http://http://monthlyinvest.com"><span itemprop="name">MonthlyInvest</span></a> 
         <span itemprop="description">
             is an initiative to provide enough knowledge to retail investors so they can make informed decisions about their investments.
-            <br/><br/>
-            More details <a href="/about">about our philosophy</a>
+            <br/>
+            <a href="/about">Click here to know more about our philosophy</a>
         </span>
     </div>
 
