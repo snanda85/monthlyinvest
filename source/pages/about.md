@@ -12,7 +12,7 @@ Usually, a salaried person contributes a particular amount every month towards h
 
 To resolve this, **we will publish an article every month describing the allocation of monthly funds**, after taking in consideration various driving factors like country's economy, sentiments, recession, bank interst rates, gold price, stock market fluctuation etc.
 
-For this purpose, the content is divided into four series:
+This website is not only about providing multibagger stock tips, but also **for people who prefer fixed deposits more than stock market**. We give equal importance to low and high risk takers. For this purpose, the content is divided into four series:
 
 Gyan
 : General articles about investing will be shared here

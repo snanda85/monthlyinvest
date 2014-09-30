@@ -9,6 +9,13 @@ posts_dir       = "posts/_posts"    # directory for blog files
 deploy_branch   = "gh-pages"
 deploy_method   = "push"
 
+desc "Serve jekyll site"
+task :serve do
+  raise "### You haven't set anything up yet. First run `rake install` to set up an Octopress theme." unless File.directory?(source_dir)
+  puts "## Serving Site with Jekyll"
+  system "jekyll serve --watch"
+end
+
 desc "Generate jekyll site"
 task :build do
   raise "### You haven't set anything up yet. First run `rake install` to set up an Octopress theme." unless File.directory?(source_dir)

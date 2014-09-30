@@ -1,11 +1,12 @@
 ---
 title: Basics of Investing
 subtitle: How to start thinking about investments
+justify: true
 categories:
 - gyan
 ---
-The habbit of investment habbit is not a sudden change in lifestyle.
-While investing a lumpsum amount is not bad, it is actually the regular savings that helps in accumulating wealth over time.
+The habit of investment cannot be the result of an impulsive decision, but rather a gradual change in the mindset.
+Although investing a lumpsum amount is not bad, it is actually the regular savings that helps in accumulating wealth over time.
 Slowly and steadily, regular investing becomes a habit that can reward you in future. It provides the discipline to allocate money for saving before you have the temptation to spend it. 
 
 <!--more-->
@@ -28,10 +29,19 @@ The type of investment varies by the type of target goal. Some of the example sa
 
 Equities vs Debt
 ----------------
-Choosing between Equity (Stock market) and Debt (Fixed deposits) is a difficult task. One needs to maintain balance between the two according to his risk capcity and risk tolerance.
+Choosing between Equity (Stock market) and Debt (Fixed deposits) is not an easy task. One needs to maintain balance between the two according to his risk capacity and risk tolerance.
 
-Many people think of stock market as gambling, and do not rely on it as an investment measure.
-The common tendency prevalent among most people is to increase their contribution in fixed income instruments like PPF, FD, RD etc. 
+Many people think of stock market as gambling, and do not rely on it as an investment measure. So the common tendency prevalent among most salaried people is to increase their contribution in fixed income instruments like PPF, FD, RD etc. However, they fail to realize that these deposits provide the interest rate similar to inflation of the country. This means that if your deposit increases from ₹1 to ₹2 in 5 years, then your expenses will also increase in a similar proportion. Hence, there is no _real_ accumulation of wealth.
+
+There are a few factors to consider when choosing between the two:
+
+Goals
+: Let's face it, Stock market is volatile and it cannot be relied upon for short term investments and intra-day trading. Hence, Debt/Fixed deposits are best for short term and inflexible goals. Choose stock market if your goals are long-term and are flexible enough.
+
+Age
+: People close to retirement should generally go for fixed deposits, because the tolerance for market fluctuation is very low. Young and middle-aged investors should choose a combination of debt and equities.
+
+The guru mantra of investing is that you have to choose the optimum combination of Equities and Debt.
 
 Now let us take an example. There are three persons Ram, Shyam and Ramesh. All of them are 25 years in age and have the same goal to accumulate funds for child's education. However, each person follows a different approach.
  

@@ -18,12 +18,15 @@ excerpt_separator: "<!--more-->"
 sass:
     sass_dir: assets/_sass
 
+gems:
+  - jekyll-sitemap
+
 # Front matter defaults
 defaults:
   -
     scope:
       path: ""
-      type: "post" # previously `post` in Jekyll 2.2.
+      type: "posts" # previously `post` in Jekyll 2.2.
     values:
       layout: "post"
       comments: true
@@ -39,6 +42,9 @@ markdown: kramdown
 redcarpet:
   extensions:
     - smart
+
+kramdown:
+    toc_levels: "1,2"
 
 # Other serivces
 enable_sharing: true

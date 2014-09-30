@@ -162,11 +162,35 @@ hr.fin {
     text-align: center;
 
     ul {
-        padding-left: 1em;
+        // Nested Menu
+        ul {
+            display: none;
+            position: absolute;
+            z-index: $level-top;
+            left:0;
+            text-align: left;
+            background: rgba(0, 0, 0, 0.8);
+            border-top: 1px solid #000;
+            border-left: 1px solid #000;
+            border-right: 1px solid #000;
+
+            li {
+                display: block;
+                line-height: $nav-height * 0.75;
+                border-bottom: 0.5px #000 solid;
+                position:relative;
+                white-space: nowrap;
+
+                a {
+                    width: 100%;
+                }
+            }
+        }
     }
 
     li {
         display: inline-block;
+        position: relative;
         text-decoration: none;
         line-height: $nav-height;
         //font-size: .9em;
@@ -182,11 +206,10 @@ hr.fin {
                 background: rgba(0, 0, 0, 0.2);
             }
         }
-      
-        :after {
-            //content: " \00b7";
-            //content: " |";
-            font-weight: bold;
+
+        // Nested Menu
+        &:hover > ul {
+            display: block;
         }
     }
 
@@ -273,7 +296,7 @@ article {
     text-align: left;
     background: $base-background-color;
     position: relative;
-    padding: 1em 20px;
+    padding: 0 20px;
 
     .title {
         color: $base-accent-color;
@@ -300,13 +323,14 @@ article {
             font-weight: 400;
             line-height: 1.4em;
             margin-top: .5em;
+            color: $base-accent-color;
             //margin-bottom: .5em;
             //border-bottom: 1px solid #eee;
         }
 
         h3 {
             //font-family: $sans-serif-article-2;
-            font-size: 1.2em;
+            font-size: 1.3em;
             font-weight: 400;
             line-height: 1.3em;
             margin-bottom: .4em;
@@ -542,6 +566,15 @@ article {
         margin-bottom: .5em;
         margin-top: .3em;
     }
+
+}
+
+.page-heading hr {
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+}
+.page-footer hr {
+    margin-bottom: 0;
 }
 
 .social-share {
