@@ -4,7 +4,8 @@
 .sass-cache
 .gist-cache
 .pygments-cache
-_deploy
+*.swp
+deploy
 build
 source/_stash
 Gemfile.lock

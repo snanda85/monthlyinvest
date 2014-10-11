@@ -19,7 +19,7 @@ Before thinking of starting a monthly investment, the most important part is to 
 - To provide adequate cover for child education and child marriage
 - Build Retirement corpus
 
-The type of investment varies by the type of target goal. Some of the example saving instruments are:
+The investment instruments should be chosen based on the type of target goal. Some of the example saving instruments are:
 
 - Bank deposits (FD, RD)
 - PPF, PF
@@ -31,9 +31,9 @@ Equities vs Debt
 ----------------
 Choosing between Equity (Stock market) and Debt (Fixed deposits) is not an easy task. One needs to maintain balance between the two according to his risk capacity and risk tolerance.
 
-Many people think of stock market as gambling, and do not rely on it as an investment measure. So the common tendency prevalent among most salaried people is to increase their contribution in fixed income instruments like PPF, FD, RD etc. However, they fail to realize that these deposits provide the interest rate similar to inflation of the country. This means that if your deposit increases from ₹1 to ₹2 in 5 years, then your expenses will also increase in a similar proportion. Hence, there is no _real_ accumulation of wealth.
+Many people think of stock market as gambling, and do not rely on it as an investment measure. So the common tendency prevalent among most salaried people is to increase their contribution in fixed income instruments like PPF, FD, RD etc. However, they fail to realize that these deposits provide the interest rate similar to inflation of the country. This means that if your deposit's value increases from ₹1 to ₹2 in 5 years, then your expenses will also increase in a similar proportion. Hence, there is no _real_ accumulation of wealth.
 
-There are a few factors to consider when choosing between the two:
+There are a few factors to consider when choosing between equities or debt:
 
 Goals
 : Let's face it, Stock market is volatile and it cannot be relied upon for short term investments and intra-day trading. Hence, Debt/Fixed deposits are best for short term and inflexible goals. Choose stock market if your goals are long-term and are flexible enough.
@@ -41,18 +41,22 @@ Goals
 Age
 : People close to retirement should generally go for fixed deposits, because the tolerance for market fluctuation is very low. Young and middle-aged investors should choose a combination of debt and equities.
 
-The guru mantra of investing is that you have to choose the optimum combination of Equities and Debt.
+**The guru mantra of investing is that you have to choose the optimum combination of Equities and Debt.**
 
-Now let us take an example. There are three persons Ram, Shyam and Ramesh. All of them are 25 years in age and have the same goal to accumulate funds for child's education. However, each person follows a different approach.
+The Choice
+----------
+At the end, the task of choosing the best investment products is upto you. Let us take an example to study the impact of choosing between debt and equity.  
+There are three persons Ram, Shyam and Ramesh. All of them are 25 years in age and have the same goal to accumulate funds for child's education. All of them have same funds to invest monthly, however each person follows a different approach.
  
 - Ram decided to go for lumpsum saving once very six months. He puts that money in FD, PPF, NSC
 - Shyam decided to invest monthly and put that money in fixed income instruments like RD, PPF
 - Ramesh decided to invest monthly and put that money in PPF, Equity Mutual fund, Equities, Bullion
 
-Now which one of above three is most likely to over-achieve his goal?
+Now all of them can accumulate sufficient funds for their children's education (because of the good habit of investing regularly), but which one of above three is more likely to **over-achieve** his goal?
 
-If you agree with Ram/Shyam’s selection, then you are most definitely going to miss on your goals.
+The correct answer is Ramesh, because of his balanced choice of investment products.  
+Although there is no surety with Ramesh's selection as well but there are more than decent chances of accumulating more wealth than Ram or Shyam.
 
-Although there is no surety with Ramesh selection as well but there are more than decent chances of achieving the goal with that selection . 
-Choosing the correct strategy is half the work done . But Now comes another important part , that is selection of Equity Mutual fund and equities. 
+Choosing the correct strategy is half the work done. Check out our [expected returns][] page to know the returns that you can expected from various strategies.
 
+[expected returns]: /strategies

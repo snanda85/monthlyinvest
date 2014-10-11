@@ -47,15 +47,15 @@ end
 # Deploying  #
 ##############
 
-desc "Default deploy task"
+desc "Build and deploy"
 task :deploy do
   # Check if preview posts exist, which should not be published
   if File.exists?(".preview-mode")
     puts "## Found posts in preview mode, regenerating files ..."
     File.delete(".preview-mode")
-    Rake::Task[:generate].execute
   end
 
+  Rake::Task[:build].execute
   Rake::Task[:copydot].invoke(source_dir, build_dir)
   Rake::Task["#{deploy_method}"].execute
 end
