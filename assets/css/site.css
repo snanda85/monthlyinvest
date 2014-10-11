@@ -2495,7 +2495,7 @@ hr.fin {
       position: relative; }
 
 #hero-content {
-  padding-top: 100px;
+  padding-top: 80px;
   color: #FFF;
   position: relative;
   text-align: center; }
@@ -2540,7 +2540,7 @@ hr.fin {
     margin-top: 250px;
     bottom: 0px;
     width: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.6);
     text-align: center; }
     #site-header nav ul ul {
       display: none;
@@ -2574,7 +2574,7 @@ hr.fin {
         transition: all 0.1s ease-in-out; }
         #site-header nav li a:hover, #site-header nav li a:visited:hover {
           color: rgba(255, 255, 255, 0.8);
-          background: rgba(0, 0, 0, 0.2); }
+          background: rgba(0, 0, 0, 0.3); }
       #site-header nav li:hover > ul {
         display: block; }
     #site-header nav li.no-bullet :after {
@@ -2825,7 +2825,7 @@ article {
 
 .page-heading hr {
   margin-top: 0.4em;
-  margin-bottom: 0.4em; }
+  margin-bottom: 1em; }
 
 .page-footer hr {
   margin-bottom: 0; }
@@ -2843,3 +2843,7 @@ article .tags {
 
 .read-more {
   font-weight: 300; }
+
+#markdown-toc {
+  margin-left: 0;
+  list-style-type: decimal; }

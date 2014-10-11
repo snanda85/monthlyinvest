@@ -3,81 +3,91 @@
   
   
   <url>
-    <loc>http://monthlyinvest.com/blog/2014/09/basics-of-investing/</loc>
-    <lastmod>2014-09-23T00:00:00+05:30</lastmod>
+    <loc>http://monthlyinvest.com/blog/2014/10/basics-of-investing/</loc>
+    
+    <lastmod>2014-10-10T00:00:00+05:30</lastmod>
+    
     <priority>0.8</priority>
   </url>
   
   
   <url>
     <loc>http://monthlyinvest.com/about/</loc>
-    <lastmod>2014-09-30T16:33:51+05:30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>http://monthlyinvest.com/blog/series/gyan/</loc>
-    <lastmod>2014-09-30T16:33:51+05:30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>http://monthlyinvest.com/blog/series/</loc>
-    <lastmod>2014-09-30T16:33:51+05:30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>http://monthlyinvest.com/</loc>
-    <lastmod>2014-09-30T16:33:51+05:30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>http://monthlyinvest.com/blog/series/mediumrisk/</loc>
-    <lastmod>2014-09-30T16:33:51+05:30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>http://monthlyinvest.com/blog/series/lowrisk/</loc>
-    <lastmod>2014-09-30T16:33:51+05:30</lastmod>
+    <lastmod>2014-10-11T23:25:30+05:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://monthlyinvest.com/blog/archives/</loc>
-    <lastmod>2014-09-30T16:33:51+05:30</lastmod>
+    <lastmod>2014-10-11T23:25:30+05:30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://monthlyinvest.com/blog/series/</loc>
+    <lastmod>2014-10-11T23:25:30+05:30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://monthlyinvest.com/</loc>
+    <lastmod>2014-10-11T23:25:30+05:30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://monthlyinvest.com/blog/series/lowrisk/</loc>
+    <lastmod>2014-10-11T23:25:30+05:30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://monthlyinvest.com/blog/series/gyan/</loc>
+    <lastmod>2014-10-11T23:25:30+05:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://monthlyinvest.com/blog/series/highrisk/</loc>
-    <lastmod>2014-09-30T16:33:51+05:30</lastmod>
+    <lastmod>2014-10-11T23:25:30+05:30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://monthlyinvest.com/blog/series/mediumrisk/</loc>
+    <lastmod>2014-10-11T23:25:30+05:30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://monthlyinvest.com/investment-products/</loc>
+    <lastmod>2014-10-11T23:25:30+05:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://monthlyinvest.com/risk-profiles/</loc>
-    <lastmod>2014-09-30T16:33:51+05:30</lastmod>
+    <lastmod>2014-10-11T23:25:30+05:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://monthlyinvest.com/strategies/</loc>
-    <lastmod>2014-09-30T16:33:51+05:30</lastmod>
+    <lastmod>2014-10-11T23:25:30+05:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
+  
   
   
 </urlset>
